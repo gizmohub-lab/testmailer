@@ -18,9 +18,8 @@ app.set('view engine', 'ejs');
 app.use(express.static('public'));
 
 // MongoDB connection
-mongoose.connect('mongodb+srv://gizmohub-lab:<db_password>@noorshow.vzgcz.mongodb.net/?retryWrites=true&w=majority&appName=noorshow', {
+mongoose.connect('mongodb+srv://gizmohub-lab:<Gizmoashi063>@noorshow.vzgcz.mongodb.net/?retryWrites=true&w=majority&appName=noorshow')
  
-});
 
 // Setup Multer for file uploads
 const upload = multer({ dest: 'uploads/' });
