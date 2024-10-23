@@ -18,7 +18,7 @@ app.set('view engine', 'ejs');
 app.use(express.static('public'));
 
 // MongoDB connection
-mongoose.connect('mongodb://localhost:27017/bulkMailer', {
+mongoose.connect('mongodb+srv://gizmohub-lab:<db_password>@noorshow.vzgcz.mongodb.net/?retryWrites=true&w=majority&appName=noorshow', {
  
 });
 
